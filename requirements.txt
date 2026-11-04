@@ -51,7 +51,7 @@ orjson==3.13.0
 ormsgpack==1.13.0
 packaging==26.3
 propcache==0.5.4
-psycopg==3.3.6
+psycopg[binary]==3.3.6
 psycopg-pool==3.3.3
 pycountry==26.2.16
 pydantic==2.14.1

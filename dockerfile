@@ -5,6 +5,7 @@ WORKDIR /app
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
+RUN pip install --no-cache-dir "psycopg[binary]==3.3.6"
 RUN apt-get update && apt-get install -y \
     build-essential \
     git \
